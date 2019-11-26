@@ -1,37 +1,61 @@
+/**
+ * Welcome to your Workbox-powered service worker!
+ *
+ * You'll need to register this file in your web app and you should
+ * disable HTTP caching for this file too.
+ * See https://goo.gl/nhQhGp
+ *
+ * The rest of the code is auto-generated. Please don't update this file
+ * directly; instead, make changes to your Workbox build configuration
+ * and re-run your build process.
+ * See https://goo.gl/2aRDsh
+ */
+
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.2.0/workbox-sw.js");
+
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') {
     self.skipWaiting();
   }
 });
+
+/**
+ * The workboxSW.precacheAndRoute() method efficiently caches and responds to
+ * requests for URLs in the manifest.
+ * See https://goo.gl/S9QRab
+ */
 self.__precacheManifest = [
   {
-    "url": "1.js",
+    "url": "1.s.js",
     "revision": "73542bd05e25c40acc473c8a25075a2a"
   },
   {
-    "url": "2.js",
+    "url": "2.s.js",
     "revision": "15ea6c7d59ecca3dfa508a4cf28d6d69"
   },
   {
-    "url": "3.js",
+    "url": "3.s.js",
     "revision": "55b18b83f29796ecde71ee21ee656f2a"
   },
   {
-    "url": "4.js",
+    "url": "4.s.js",
     "revision": "b56ddff9f0fc62ba99f4a8524c838c6c"
   },
   {
     "url": "index.html",
-    "revision": "5532729e517d7237e0ed6eaacba6c6f2"
+    "revision": "d2497fc3811c57c1ebcf6835aa017d21"
   },
   {
-    "url": "jquery.min.js",
+    "url": "jquery.js",
     "revision": "220afd743d9e9643852e31a135a9f3ae"
   },
   {
     "url": "style.css",
-    "revision": "b934ecd96e604d9e2be63f278a29d691"
+    "revision": "06f3068d683fa13aef33ef24968637de"
+  },
+  {
+    "url": "workbox-config.js",
+    "revision": "4a77be5178b1baf21235fa15b158b920"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
