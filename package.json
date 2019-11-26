@@ -9,12 +9,11 @@
   "author": "Sharkbyte",
   "license": "ISC",
   "devDependencies": {
-    "babel": "^6.23.0",
+    "@babel/core": "^7.7.4",
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
     "gulp-cssmin": "^0.2.0",
     "gulp-htmlmin": "^5.0.1",
-    "gulp-rename": "^1.4.0",
     "gulp-uglify": "^3.0.2"
   }
 }

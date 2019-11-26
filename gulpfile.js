@@ -1,7 +1,5 @@
 const gulp=require("gulp");
 const babel=require("gulp-babel");
-const ren=require("gulp-rename");
-const cat=require("gulp-concat");
 const targetfolder="bin";
 const htmlmin = require('gulp-htmlmin');
 const cssmin = require('gulp-cssmin');
