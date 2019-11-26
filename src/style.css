@@ -1,0 +1,18 @@
+@import url("https://use.typekit.net/siy7owe.css");
+
+body {
+  background-color: black;
+  font-family: "source-code-pro", monospace;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0;
+  color: #2fed29;
+}
+
+a {
+  font-family: "source-code-pro", monospace;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0;
+  color: #2fed29;
+  }
