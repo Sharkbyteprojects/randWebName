@@ -1,21 +1,3 @@
-const splitter= document.cookie.split("; ");
-function such(forc){
-var x=0;
-var y=false;
-var sln;
-while(x!=splitter.length){
-const hh=splitter[x].split("=");
-if(hh[0]==forc){
-sln=hh[1];
-y=true;
-break;
-}else{
-x++;
-}
-}
-if(!y){
-console.alert("Not found " + forc);
-}else{
-return sln;
-}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:54fb5ca328f14afeea60fdf2b7f266d3c0333ebe6fd3e32d6bd929c7fa5eec1a
+size 302
