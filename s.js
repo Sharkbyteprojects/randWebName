@@ -43,11 +43,19 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "d2497fc3811c57c1ebcf6835aa017d21"
+    "revision": "a57e880c8e93db3ca4fb49feb20f750d"
   },
   {
     "url": "jquery.js",
     "revision": "220afd743d9e9643852e31a135a9f3ae"
+  },
+  {
+    "url": "ossw.js",
+    "revision": "ebb63ca15bba16b550232b0b0f66c726"
+  },
+  {
+    "url": "osswu.js",
+    "revision": "ebb63ca15bba16b550232b0b0f66c726"
   },
   {
     "url": "style.css",

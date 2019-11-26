@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<script type="text/javascript">
+        if('serviceWorker' in navigator){
+            navigator.serviceWorker.register('./s.js');
+        }
+    </script>
 	<title>Create you an Ethernet Name</title>
 	<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
 <script>
@@ -19,10 +24,5 @@
 </head>
 <body>
 <h1>Webname Generator</h1><h1><div id="names">Wait</div><noscript>OOOOOPS!!! YOU NEEED JS!!</noscript></h1><P><button onclick="genn()">GET A NEW NAME</button></P><p><a href="http://bit.ly/SharkCss" target="_blank">Style powered by SharkCss</a></p><script type="text/javascript" src="4.s.js"></script>
-<script type="text/javascript">
-        if('serviceWorker' in navigator){
-            navigator.serviceWorker.register('./s.js');
-        }
-</script>
 </body>
 </html>
